@@ -15,7 +15,7 @@ db.serialize(()=>{
         }
     });
     db.run(`CREATE TABLE customers (
-        customerid INTEGER PRIMARY LEY AUTOINCREMENT,
+        customerid INTEGER PRIMARY KEY AUTOINCREMENT,
         firstName TEXT NOT NULL,
         lastName TEXT NOT NULL,
         email TEXT NOT NULL,
