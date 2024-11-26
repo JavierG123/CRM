@@ -19,7 +19,7 @@ db.serialize(()=>{
         firstName TEXT NOT NULL,
         lastName TEXT NOT NULL,
         email TEXT NOT NULL,
-        phone TEXT NOT NULL,
+        phone TEXT NOT NULL
         )`,(err)=>{
             if(err){
                 console.error('Error al crear la tabla: ',err.message);
