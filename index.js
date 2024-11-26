@@ -57,7 +57,7 @@ app.patch('/customer/update/:customerid',(req,res)=>{
         if(this.changes === 0){
             return res.status(404).json({error: 'usuario no encontrado'})
         }
-        res.status(200).json({mensaje: 'Tarea Acualizada'});
+        res.status(200).json({mensaje: 'correo del usuario acualizado'});
     });
 });
 
